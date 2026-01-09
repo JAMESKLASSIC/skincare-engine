@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(page_title="Skin Recommendation Engine", layout="centered")
 
 # Load products from CSV
-@st.cache_data  # This makes it load only once
+@st.cache_data
 def load_products():
     return pd.read_csv('products.csv')
 
@@ -76,9 +76,10 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
         filtered['suitable_skin_types'].str.contains('All', case=False, na=True)
     ]
 
-    # Concerns filter
+    # Concerns filter - FIXED HERE
     if concerns:
-        mask = pd.Series([False] * len(filtered))
+        filtered = filtered.reset_index(drop=True)  # Always reset before mask
+        mask = pd.Series([False] * len(filtered), index=filtered.index)
         for c in concerns:
             keywords = "|".join(CONCERN_MAPPING.get(c, []))
             if keywords:
@@ -92,8 +93,6 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
         return False
 
     st.success("Here's your personalized routine:")
-
-    has_acid = False
 
     # 1. Cleanse
     cleansers = filtered[filtered['step'] == '1. Cleanse']
@@ -168,7 +167,7 @@ st.markdown("---")
 if st.button("Browse Products"):
     query = st.text_input("Search by keyword (e.g., cleanser, niacinamide, vitamin c)")
     if query:
-        matches = df[df['name'].str.lower().str.contains(query.lower())]
+        matches = df[df['name'].str.lower().str.contains(query.lower(), na=False)]
         if matches.empty:
             st.info("No matches found. Try another keyword.")
         else:
@@ -176,3 +175,4 @@ if st.button("Browse Products"):
                 st.write(f"**{p['product_id']}** — {p['name']}")
 
 st.caption("Thank you for trusting us with your skin 🌿")
+
