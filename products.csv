@@ -1,8 +1,8 @@
-product_id,name,category,step,step,product_type,suitable_skin_types,safe_for_sensitive,primary_target,secondary_target,key_actives,contains_retinol,contains_acid,contains_vaitamin_c,prescripition_only,recommended_time,max_frequency
+ï»¿product_id,name,category,step,step,product_type,suitable_skin_types,safe_for_sensitive,primary_target,secondary_target,key_actives,contains_retinol,contains_acid,contains_vaitamin_c,prescripition_only,recommended_time,max_frequency
 P001,PanOxyl Acne Creamy Wash (Face & Body),Cleanser,Cleanse,1. Cleanse,Wash,Acne-prone,No,Acne treatment,Pore cleansing,Benzoyl Peroxide 4%,No,No,No,No,Both,1-2x daily
 P002,PanOxyl Acne Foaming Wash,Cleanser,Cleanse,1. Cleanse,Wash,Acne-prone,No,Acne treatment,Deep cleanse,Benzoyl Peroxide 10%,No,No,No,No,Both,1-2x daily
-P003,Palmer’s Cocoa Butter Formula Skin Therapy Oil,Oil,Treat/Moisturize,4. Moisturize,Oil,"Dry, scars",Yes,"Hydration, scars",Therapy,"Cocoa Butter, Vitamin E",No,No,No,No,Both,Daily
-P004,Palmer’s Cocoa Butter Formula Moisturizing Body Oil,Oil,Moisturize,4. Moisturize,Oil,Dry,Yes,Hydration,Moisturizing,Cocoa Butter,No,No,No,No,Both,Daily
+P003,Palmerâ€™s Cocoa Butter Formula Skin Therapy Oil,Oil,Treat/Moisturize,4. Moisturize,Oil,"Dry, scars",Yes,"Hydration, scars",Therapy,"Cocoa Butter, Vitamin E",No,No,No,No,Both,Daily
+P004,Palmerâ€™s Cocoa Butter Formula Moisturizing Body Oil,Oil,Moisturize,4. Moisturize,Oil,Dry,Yes,Hydration,Moisturizing,Cocoa Butter,No,No,No,No,Both,Daily
 P005,Nineless B-Boost 1% Kojic Acid Toner,Toner,Tone,2. Tone/Exfoliate,Toner,All,Moderate,Brightening,Even tone,Kojic Acid 1%,No,Yes,No,No,Night,Daily
 P006,Naturium The Smoother Glycolic Acid Body Wash,Body Wash,Cleanse/Exfoliate,1. Cleanse,Wash,All except sensitive,Moderate,"Smoothing, exfoliation",Texture,Glycolic Acid,No,Yes (AHA),No,No,Night,Daily
 P007,Naturium The Glow Getter Multi-Oil Body Wash,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,"Glow, hydration",Nourishing,Multi-oils,No,No,No,No,Both,Daily
@@ -17,7 +17,7 @@ P015,The Ordinary Glycolic Acid 7% Exfoliating Toner,Toner,Tone/Exfoliate,2. Ton
 P016,EOS Shea Better 24h Moisture Body Lotion Vanilla Cashmere,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,Hydration,Moisture lock,Shea Butter,No,No,No,No,Both,Daily
 P017,EOS Shea Better 24h Moisture Body Lotion Pomegranate Raspberry,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,Hydration,Moisture lock,Shea Butter,No,No,No,No,Both,Daily
 P018,Amlactin Daily Vitamin C Lotion 7% Lactic Acid,Body Lotion,Moisturize,4. Moisturize,Lotion,"All, especially dry",Yes,"Hydration, exfoliation",Brightening,"Lactic Acid 7%, Vitamin C",No,Yes (AHA),Yes,No,Both,Daily
-P019,TIAI’I Alpha-5 Mela Care Cream,Moisturizer,Moisturize,4. Moisturize,Cream,Hyperpigmentation,Moderate,"Melasma, dark spots",Brightening,Alpha Arbutin or similar,No,No,No,No,Night,Daily
+P019,TIAIâ€™I Alpha-5 Mela Care Cream,Moisturizer,Moisturize,4. Moisturize,Cream,Hyperpigmentation,Moderate,"Melasma, dark spots",Brightening,Alpha Arbutin or similar,No,No,No,No,Night,Daily
 P020,COSRX Advanced Snail 92 All In One Cream,Moisturizer,Moisturize,4. Moisturize,Cream,"All, especially sensitive/dry",Yes,"Hydration, repair",Soothing,Snail Mucin 92%,No,No,No,No,Both,Daily
 P021,Isntree Green Tea Fresh Emulsion,Moisturizer,Moisturize,4. Moisturize,Emulsion,"Oily, acne-prone",Yes,"Soothing, fresh",Oil control,Green Tea,No,No,No,No,Both,Daily
 P022,Suncut UV Perfect Gel SPF50+ PA++++,Sunscreen,Protect,5. Protect,Gel,All,Yes,Sun protection,Perfect coverage,UV filters,No,No,No,No,Morning,Daily
@@ -34,8 +34,8 @@ P032,La Roche-Posay UVMune 400 SPF50+ Anti-Oxydant,Sunscreen,Protect,5. Protect,
 P033,Aveeno Daily Moisturizing Body Oil Mist,Oil,Moisturize,4. Moisturize,Mist,Dry,Yes,Daily moisturizing,Nourishing,Oat oil,No,No,No,No,Both,Daily
 P034,Nivea UV Super Water Gel SPF50 PA+++,Sunscreen,Protect,5. Protect,Gel,All,Yes,Sun protection,Lightweight,UV filters,No,No,No,No,Morning,Daily
 P035,Dove Exfoliating Body Polish Crushed Almond & Mango Butter,Scrub,Exfoliate,6. Exfoliate (Physical),Polish,All,Yes,Exfoliation,Nourishing,"Almond, Mango Butter",No,No,No,No,Night,2-3x/week
-P036,Dr Teal’s Shea Sugar Scrub Vitamin C,Scrub,Exfoliate,6. Exfoliate (Physical),Scrub,All,Yes,"Exfoliation, brightening",Glow,"Shea, Sugar, Vitamin C",No,No,Yes,No,Night,2-3x/week
-P037,Palmer’s Skin Success with Vitamin E Anti-Dark Spots Fade Milk Tone Correcting Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,Hyperpigmentation,Yes,Anti-dark spots,Tone correcting,"Vitamin E, brighteners",No,No,No,No,Night,Daily
+P036,Dr Tealâ€™s Shea Sugar Scrub Vitamin C,Scrub,Exfoliate,6. Exfoliate (Physical),Scrub,All,Yes,"Exfoliation, brightening",Glow,"Shea, Sugar, Vitamin C",No,No,Yes,No,Night,2-3x/week
+P037,Palmerâ€™s Skin Success with Vitamin E Anti-Dark Spots Fade Milk Tone Correcting Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,Hyperpigmentation,Yes,Anti-dark spots,Tone correcting,"Vitamin E, brighteners",No,No,No,No,Night,Daily
 P038,Neutrogena Blackhead Eliminating Cleansing Toner,Toner,Tone,2. Tone/Exfoliate,Toner,Acne-prone,Moderate,Blackhead elimination,Pore care,Salicylic Acid,No,Yes (BHA),No,No,Both,Daily
 P039,Zapzyt Acne Wash Cleanser,Cleanser,Cleanse,1. Cleanse,Cleanser,Acne-prone,No,Acne treatment,Cleansing,Benzoyl Peroxide,No,No,No,No,Both,1-2x daily
 P040,Estelin Rosehip Niacinamide Spots Fading Face Serum,Serum,Treat,3. Treat,Serum,Hyperpigmentation,Yes,Spot fading,Brightening,"Rosehip, Niacinamide",No,No,No,No,Both,Daily
@@ -136,144 +136,5 @@ P134,Facefact Ceramide Oil Control Foaming Cleanser,Cleanser,Cleanse,1. Cleanse,
 P135,Advance Clinicals Retinol Advanced Firming Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All except sensitive,Moderate,"Firming, anti-aging",Hydration,Retinol,Yes,No,No,No,Night,Daily (build tolerance)
 P136,Advance Clinicals Vitamin C Advanced Brightening Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All,Yes,Brightening,Anti-aging,Vitamin C,No,No,Yes,No,Morning,Daily
 P137,COSRX Salicylic Acid Daily Gentle Cleanser,Cleanser,Cleanse,1. Cleanse,Cleanser,Acne-prone,Yes,"Acne, gentle cleanse",Pore care,Salicylic Acid,No,Yes (BHA),No,No,Both,Daily
-P138,Trilumá Cream (Hydroquinone 4% + Tretinoin 0.05% + Fluocinolone 0.01%),Moisturizer,Treat,3. Treat,Cream,Melasma,No,"Melasma, hyperpigmentation",Inflammation reduction,"Hydroquinone 4%, Tretinoin 0.05%, Fluocinolone 0.01%",Yes,No,No,Yes,Night,Short-term (8 weeks)
+P138,TrilumÃ¡ Cream (Hydroquinone 4% + Tretinoin 0.05% + Fluocinolone 0.01%),Moisturizer,Treat,3. Treat,Cream,Melasma,No,"Melasma, hyperpigmentation",Inflammation reduction,"Hydroquinone 4%, Tretinoin 0.05%, Fluocinolone 0.01%",Yes,No,No,Yes,Night,Short-term (8 weeks)
 P139,ANUA Niacinamide 10% + TXA 4% Serum,Serum,Treat,3. Treat,Serum,"All, acne-prone",Yes,"Brightening, blemish",Pore care,"Niacinamide 10%, Tranexamic Acid 4%",No,No,No,No,Both,Daily
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,
