@@ -1,0 +1,279 @@
+product_id,name,category,step,step,product_type,suitable_skin_types,safe_for_sensitive,primary_target,secondary_target,key_actives,contains_retinol,contains_acid,contains_vaitamin_c,prescripition_only,recommended_time,max_frequency
+P001,PanOxyl Acne Creamy Wash (Face & Body),Cleanser,Cleanse,1. Cleanse,Wash,Acne-prone,No,Acne treatment,Pore cleansing,Benzoyl Peroxide 4%,No,No,No,No,Both,1-2x daily
+P002,PanOxyl Acne Foaming Wash,Cleanser,Cleanse,1. Cleanse,Wash,Acne-prone,No,Acne treatment,Deep cleanse,Benzoyl Peroxide 10%,No,No,No,No,Both,1-2x daily
+P003,Palmer’s Cocoa Butter Formula Skin Therapy Oil,Oil,Treat/Moisturize,4. Moisturize,Oil,"Dry, scars",Yes,"Hydration, scars",Therapy,"Cocoa Butter, Vitamin E",No,No,No,No,Both,Daily
+P004,Palmer’s Cocoa Butter Formula Moisturizing Body Oil,Oil,Moisturize,4. Moisturize,Oil,Dry,Yes,Hydration,Moisturizing,Cocoa Butter,No,No,No,No,Both,Daily
+P005,Nineless B-Boost 1% Kojic Acid Toner,Toner,Tone,2. Tone/Exfoliate,Toner,All,Moderate,Brightening,Even tone,Kojic Acid 1%,No,Yes,No,No,Night,Daily
+P006,Naturium The Smoother Glycolic Acid Body Wash,Body Wash,Cleanse/Exfoliate,1. Cleanse,Wash,All except sensitive,Moderate,"Smoothing, exfoliation",Texture,Glycolic Acid,No,Yes (AHA),No,No,Night,Daily
+P007,Naturium The Glow Getter Multi-Oil Body Wash,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,"Glow, hydration",Nourishing,Multi-oils,No,No,No,No,Both,Daily
+P008,Alpha Skin Care Renewal Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Moderate,"Exfoliation, smoothing",Hydration,Glycolic Acid,No,Yes (AHA),No,No,Night,Daily
+P009,Wonder Ceramide Mochi Toner,Toner,Tone,2. Tone/Exfoliate,Toner,"All, sensitive",Yes,Barrier repair,Hydration,Ceramides,No,No,No,No,Both,Daily
+P010,Aqua Sun SPF50+ PA++++,Sunscreen,Protect,5. Protect,Sunscreen,All,Yes,Sun protection,Hydration,UV filters,No,No,No,No,Morning,Daily
+P011,Neutrogena Hydro Boost Water Gel (Hyaluronic Acid + Amino Acids),Moisturizer,Moisturize,4. Moisturize,Gel,"All, dry",Yes,Hydration,Plumping,"Hyaluronic Acid, Amino Acids",No,No,No,No,Both,Daily
+P012,FaceFacts Ceramide Oil Control Hydrating Toner,Toner,Tone,2. Tone/Exfoliate,Toner,Oily,Yes,"Oil control, hydration",Balance,Ceramides,No,No,No,No,Both,Daily
+P013,Madagascar Centella Tone Brightening Boosting Toner,Toner,Tone,2. Tone/Exfoliate,Toner,All,Yes,Brightening,Soothing,"Centella, brighteners",No,No,No,No,Both,Daily
+P014,Acwell Licorice pH Balancing Cleansing Toner 5.5,Toner,Tone,2. Tone/Exfoliate,Toner,"All, sensitive",Yes,"pH balance, soothing",Brightening,Licorice,No,No,No,No,Both,Daily
+P015,The Ordinary Glycolic Acid 7% Exfoliating Toner,Toner,Tone/Exfoliate,2. Tone/Exfoliate,Toner,All except sensitive,No,"Exfoliation, brightness",Texture,Glycolic Acid 7%,No,Yes (AHA),No,No,Night,Daily (build from 3x/week)
+P016,EOS Shea Better 24h Moisture Body Lotion Vanilla Cashmere,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,Hydration,Moisture lock,Shea Butter,No,No,No,No,Both,Daily
+P017,EOS Shea Better 24h Moisture Body Lotion Pomegranate Raspberry,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,Hydration,Moisture lock,Shea Butter,No,No,No,No,Both,Daily
+P018,Amlactin Daily Vitamin C Lotion 7% Lactic Acid,Body Lotion,Moisturize,4. Moisturize,Lotion,"All, especially dry",Yes,"Hydration, exfoliation",Brightening,"Lactic Acid 7%, Vitamin C",No,Yes (AHA),Yes,No,Both,Daily
+P019,TIAI’I Alpha-5 Mela Care Cream,Moisturizer,Moisturize,4. Moisturize,Cream,Hyperpigmentation,Moderate,"Melasma, dark spots",Brightening,Alpha Arbutin or similar,No,No,No,No,Night,Daily
+P020,COSRX Advanced Snail 92 All In One Cream,Moisturizer,Moisturize,4. Moisturize,Cream,"All, especially sensitive/dry",Yes,"Hydration, repair",Soothing,Snail Mucin 92%,No,No,No,No,Both,Daily
+P021,Isntree Green Tea Fresh Emulsion,Moisturizer,Moisturize,4. Moisturize,Emulsion,"Oily, acne-prone",Yes,"Soothing, fresh",Oil control,Green Tea,No,No,No,No,Both,Daily
+P022,Suncut UV Perfect Gel SPF50+ PA++++,Sunscreen,Protect,5. Protect,Gel,All,Yes,Sun protection,Perfect coverage,UV filters,No,No,No,No,Morning,Daily
+P023,Advance Clinicals Vitamin C Brightening Serum,Serum,Treat,3. Treat,Serum,All,Yes,Brightening,Hydration,Vitamin C,No,No,Yes,No,Morning,Daily
+P024,Advance Clinicals Vitamin C Anti-Aging Serum,Serum,Treat,3. Treat,Serum,All,Yes,Anti-aging,Brightening,Vitamin C,No,No,Yes,No,Morning,Daily
+P025,Advance Clinicals Vitamin C Anti-Wrinkle Serum,Serum,Treat,3. Treat,Serum,All,Yes,Anti-wrinkle,Brightening,Vitamin C,No,No,Yes,No,Morning,Daily
+P026,Olay Renewing Retinol Body Wash,Body Wash,Cleanse,1. Cleanse,Wash,All except sensitive,Moderate,Renewing,Anti-aging,Retinol,Yes,No,No,No,Night,Daily
+P027,Olay Retinol 24 Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,All except sensitive,Moderate,Anti-aging,Hydration,Retinol,Yes,No,No,No,Night,Daily (build)
+P028,Olay Hyaluronic Acid Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,Dry,Yes,Hydration,Plumping,Hyaluronic Acid,No,No,No,No,Both,Daily
+P029,Olay Vitamin C Brightening Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,Brightening,Glow,Vitamin C,No,No,Yes,No,Morning,Daily
+P030,Olay Tone Brightening Vitamin C Serum Complex Body Wash,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,Tone brightening,Cleansing,Vitamin C,No,No,Yes,No,Both,Daily
+P031,Biore UV Aqua Rich Watery Essence SPF50+ PA++++,Sunscreen,Protect,5. Protect,Essence,All,Yes,Sun protection,Lightweight hydration,UV filters,No,No,No,No,Morning,Daily
+P032,La Roche-Posay UVMune 400 SPF50+ Anti-Oxydant,Sunscreen,Protect,5. Protect,Fluid,"All, sensitive",Yes,"Sun protection, antioxidant",Anti-aging,"UV filters, antioxidants",No,No,No,No,Morning,Daily
+P033,Aveeno Daily Moisturizing Body Oil Mist,Oil,Moisturize,4. Moisturize,Mist,Dry,Yes,Daily moisturizing,Nourishing,Oat oil,No,No,No,No,Both,Daily
+P034,Nivea UV Super Water Gel SPF50 PA+++,Sunscreen,Protect,5. Protect,Gel,All,Yes,Sun protection,Lightweight,UV filters,No,No,No,No,Morning,Daily
+P035,Dove Exfoliating Body Polish Crushed Almond & Mango Butter,Scrub,Exfoliate,6. Exfoliate (Physical),Polish,All,Yes,Exfoliation,Nourishing,"Almond, Mango Butter",No,No,No,No,Night,2-3x/week
+P036,Dr Teal’s Shea Sugar Scrub Vitamin C,Scrub,Exfoliate,6. Exfoliate (Physical),Scrub,All,Yes,"Exfoliation, brightening",Glow,"Shea, Sugar, Vitamin C",No,No,Yes,No,Night,2-3x/week
+P037,Palmer’s Skin Success with Vitamin E Anti-Dark Spots Fade Milk Tone Correcting Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,Hyperpigmentation,Yes,Anti-dark spots,Tone correcting,"Vitamin E, brighteners",No,No,No,No,Night,Daily
+P038,Neutrogena Blackhead Eliminating Cleansing Toner,Toner,Tone,2. Tone/Exfoliate,Toner,Acne-prone,Moderate,Blackhead elimination,Pore care,Salicylic Acid,No,Yes (BHA),No,No,Both,Daily
+P039,Zapzyt Acne Wash Cleanser,Cleanser,Cleanse,1. Cleanse,Cleanser,Acne-prone,No,Acne treatment,Cleansing,Benzoyl Peroxide,No,No,No,No,Both,1-2x daily
+P040,Estelin Rosehip Niacinamide Spots Fading Face Serum,Serum,Treat,3. Treat,Serum,Hyperpigmentation,Yes,Spot fading,Brightening,"Rosehip, Niacinamide",No,No,No,No,Both,Daily
+P041,Estelin Turmeric Vitamin C Brightening Face Serum,Serum,Treat,3. Treat,Serum,All,Yes,Brightening,Glow,"Turmeric, Vitamin C",No,No,Yes,No,Morning,Daily
+P042,Estelin Alpha Arbutin + Niacinamide Whitening Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All,Yes,Whitening,Brightening,"Alpha Arbutin, Niacinamide",No,No,No,No,Night,Daily
+P043,Estelin Hyaluronic + Polyglutamic Acid Moisturizing Cream,Moisturizer,Moisturize,4. Moisturize,Cream,Dry,Yes,Hydration,Plumping,"Hyaluronic, Polyglutamic",No,No,No,No,Both,Daily
+P044,Vaseline Intensive Care Vitamin B3 Body Oil,Oil,Moisturize,4. Moisturize,Oil,All,Yes,Hydration,Brightening,Vitamin B3 (Niacinamide),No,No,No,No,Both,Daily
+P045,Vaseline Intensive Care Cocoa Radiant Body Oil,Oil,Moisturize,4. Moisturize,Oil,Dry,Yes,Radiance,Hydration,Cocoa,No,No,No,No,Both,Daily
+P046,FaceFacts Ceramide Hydrating Gentle Cleanser,Cleanser,Cleanse,1. Cleanse,Cleanser,"All, sensitive",Yes,"Hydration, gentle",Barrier repair,Ceramides,No,No,No,No,Both,Daily
+P047,Taravet Treatment Whitening Active Glow & Moisturizing Oil,Oil,Moisturize,4. Moisturize,Oil,All,Yes,"Whitening, glow",Moisturizing,Whitening actives,No,No,No,No,Both,Daily
+P048,Estelin 5DHA Moisturizing Toner,Toner,Tone,2. Tone/Exfoliate,Toner,Dry,Yes,Hydration,Moisturizing,Hyaluronic Acid variants,No,No,No,No,Both,Daily
+P049,Bitnara Brightening & Hydrating Mochi Toner,Toner,Tone,2. Tone/Exfoliate,Toner,All,Yes,"Brightening, hydration",Glow,Hydrating actives,No,No,No,No,Both,Daily
+P050,Skin by Zaron Vitamin C Brightening / Moisturizing Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,"Brightening, moisturizing",Glow,Vitamin C,No,No,Yes,No,Morning,Daily
+P051,Vaseline Healthy Bright Gluta-Hya Serum Burst Lotion Dewy Radiance,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,"Brightening, dewy",Radiance,"Glutathione, Hyaluronic",No,No,No,No,Both,Daily
+P052,Vaseline Healthy Bright Gluta-Hya Serum Burst Lotion Flawless Glow,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,"Brightening, glow",Flawless,"Glutathione, Hyaluronic",No,No,No,No,Both,Daily
+P053,Advance Korean Skin Brightest Body Oil Skin Brightening,Oil,Moisturize,4. Moisturize,Oil,All,Yes,Brightening,Hydration,"Niacinamide, oils",No,No,No,No,Both,Daily
+P054,Advance Korean Skin Active Fair Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All,Moderate,Brightening,Fairness,Whitening agents,No,No,No,No,Night,Daily
+P055,Dr Teals Moisturizing Bath and Body Oil Moisture Nourish & Protect Coconut Oil & Essential Oils,Oil,Moisturize,4. Moisturize,Oil,Dry,Yes,"Nourish, protect",Moisture,"Coconut Oil, Essentials",No,No,No,No,Both,Daily
+P056,Dr Teals Moisturizing Bath and Body Oil Moisture Shea Butter & Almond Oil & Essential Oils,Oil,Moisturize,4. Moisturize,Oil,Dry,Yes,"Moisture, nourish",Soothing,"Shea, Almond, Essentials",No,No,No,No,Both,Daily
+P057,Dr Teals Moisturizing Bath and Body Oil Moisture Relaxing Cannabis Sativa Hemp Seed Oil & Essential Oils,Oil,Moisturize,4. Moisturize,Oil,All,Yes,"Relaxing, moisture",Soothing,"Hemp Seed Oil, Essentials",No,No,No,No,Night,Daily
+P058,E45 Moisturizing Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,"Dry, sensitive",Yes,Hydration,Soothing,Emollients,No,No,No,No,Both,Daily
+P059,Disaar Cocoa Deep Moisturizing Body Oil Gel,Oil,Moisturize,4. Moisturize,Gel Oil,Dry,Yes,Deep hydration,Moisturizing,Cocoa,No,No,No,No,Both,Daily
+P060,Disaar Vitamin C Whitening & Moisturizing Body Oil Gel,Oil,Moisturize,4. Moisturize,Gel Oil,All,Yes,"Whitening, moisturizing",Brightening,Vitamin C,No,No,Yes,No,Morning,Daily
+P061,Niu Skin Total Effects Platinum White Face Essence Lotion,Moisturizer,Moisturize,4. Moisturize,Lotion,All,Yes,Whitening,Anti-aging,Whitening actives,No,No,No,No,Both,Daily
+P062,Niu Skin Bright and Clear Face Cream Brightening & Anti-Acne,Moisturizer,Moisturize,4. Moisturize,Cream,Acne-prone,Yes,"Brightening, anti-acne",Clarity,"Brightening, anti-acne actives",No,No,No,No,Both,Daily
+P063,Nivea Perfect & Radiant Even Tone Night Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All,Yes,Even tone,Brightening,Brightening actives,No,No,No,No,Night,Daily
+P064,Skin Aqua Super Moisture UV Gel SPF50+ PA++++,Sunscreen,Protect,5. Protect,Gel,All,Yes,Sun protection,Moisture,UV filters,No,No,No,No,Morning,Daily
+P065,Bio-Oil Skincare Oil Specialist Scar and Stretch Mark Product,Oil,Treat/Moisturize,4. Moisturize,Oil,All,Yes,"Scars, stretch marks",Hydration,"Vitamin A, E, oils",No,No,No,No,Both,Daily
+P066,Hatomugi UV Care & Moisturizing SPF50+ PA++++,Sunscreen,Protect,5. Protect,Gel,All,Yes,Sun protection,Moisturizing,UV filters,No,No,No,No,Morning,Daily
+P067,Facefact Bright + Clear Face Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All,Yes,"Brightening, clarity",Even tone,Brightening actives,No,No,No,No,Both,Daily
+P068,Femfresh Daily Feminine Wash PH Microbiome Balanced*,Cleanser,Cleanse,1. Cleanse,Wash,Intimate area,Yes,pH balance,Microbiome,"Gentle, pH balanced",No,No,No,No,Both,Daily
+P069,Revox Just Glycolic Acid 7% Exfoliating Toner,Toner,Tone/Exfoliate,2. Tone/Exfoliate,Toner,All except sensitive,No,Exfoliation,Brightening,Glycolic Acid 7%,No,Yes (AHA),No,No,Night,3-4x/week
+P070,Simple Hydrating Light Moisturizer,Moisturizer,Moisturize,4. Moisturize,Moisturizer,"All, sensitive",Yes,Hydration,Light,Hydrators,No,No,No,No,Both,Daily
+P071,Pacci Pristine Slime Luxe Essence Hydrator,Serum,Treat,3. Treat,Essence,All,Yes,Hydration,Luxe feel,Hydrating actives,No,No,No,No,Both,Daily
+P072,Pacci Pristine Slime Luxe Fusion Moisturizer,Moisturizer,Moisturize,4. Moisturize,Moisturizer,All,Yes,Hydration,Fusion,Hydrating actives,No,No,No,No,Both,Daily
+P073,Facefacts Ceramide Skin Barrier Complex Moisturising Gel Cream,Moisturizer,Moisturize,4. Moisturize,Gel Cream,All,Yes,Barrier repair,Hydration,Ceramides,No,No,No,No,Both,Daily
+P074,Facefacts Ceramide Skin Barrier Complex Blemish Gel Moisturizer,Moisturizer,Moisturize,4. Moisturize,Gel,Acne-prone,Yes,"Blemish, barrier",Soothing,Ceramides,No,No,No,No,Both,Daily
+P075,Simple Moisturising Facial Wash,Cleanser,Cleanse,1. Cleanse,Wash,"All, sensitive",Yes,Gentle cleanse,Moisturizing,Gentle actives,No,No,No,No,Both,Daily
+P076,Simple Refreshing Facial Wash,Cleanser,Cleanse,1. Cleanse,Wash,All,Yes,Refreshing,Cleanse,Refreshing agents,No,No,No,No,Both,Daily
+P077,Simple Hydrating Light Moisturizer 12H Moisturisation,Moisturizer,Moisturize,4. Moisturize,Moisturizer,"All, sensitive",Yes,Hydration,Long-lasting,Hydrators,No,No,No,No,Both,Daily
+P078,Bitnara Brightening & Hydrating Body Wash Luminous and Glowing Complexion,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,"Brightening, glow",Hydration,Brightening actives,No,No,No,No,Both,Daily
+P079,Skeenpoint Glow Booster Exfoliating Lightening Body Wash,Body Wash,Cleanse/Exfoliate,1. Cleanse,Wash,All,Moderate,"Lightening, exfoliation",Glow,"Exfoliants, lighteners",No,No,No,No,Night,Daily
+P080,Skeenpoint Glow and Radiance Brightening Body Wash,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,"Brightening, radiance",Glow,Brightening actives,No,No,No,No,Both,Daily
+P081,Aqua Rich Bright + Glow Body Gel Wash,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,"Brightening, glow",Cleansing,Brightening actives,No,No,No,No,Both,Daily
+P082,Pei Mei Hyaluronic Acid Serum,Serum,Treat,3. Treat,Serum,Dry,Yes,Hydration,Plumping,Hyaluronic Acid,No,No,No,No,Both,Daily
+P083,"Dr. Rashel Fade Spots Night Cream Arbutin, Niacinamide",Moisturizer,Moisturize,4. Moisturize,Cream,Hyperpigmentation,Yes,Fade spots,Brightening,"Arbutin, Niacinamide",No,No,No,No,Night,Daily
+P084,Dr. Rashel White Skin Whitening Fade Spots Serum,Serum,Treat,3. Treat,Serum,Hyperpigmentation,Yes,"Whitening, fade spots",Brightening,Whitening actives,No,No,No,No,Night,Daily
+P085,Beauty Formulas Moisture Serum 1% Hyaluronic Acid,Serum,Treat,3. Treat,Serum,"All, dry",Yes,Hydration,Plumping,Hyaluronic Acid 1%,No,No,No,No,Both,Daily
+P086,Beauty Formulas Illuminating Serum 10% Niacinamide,Serum,Treat,3. Treat,Serum,All,Yes,Brightening,Pore care,Niacinamide 10%,No,No,No,No,Both,Daily
+P087,Nivea Soft Nemledirici Bakim Kremi,Moisturizer,Moisturize,4. Moisturize,Cream,All,Yes,Hydration,Softening,Emollients,No,No,No,No,Both,Daily
+P088,Veet Gold Retinol Intensive Whitening Body Oil,Oil,Moisturize,4. Moisturize,Oil,All except sensitive,Moderate,"Whitening, anti-aging",Intensive,Retinol,Yes,No,No,No,Night,Daily (build)
+P089,Veet Gold Vitamin C Oil Face and Body SPF15,Oil,Protect/Moisturize,5. Protect,Oil,All,Yes,"Brightening, protection",SPF15,"Vitamin C, SPF",No,No,Yes,No,Morning,Daily
+P090,Veet Gold Alpha Arbutin x3 Face and Body SPF15,Oil,Protect/Moisturize,5. Protect,Oil,Hyperpigmentation,Yes,Brightening,SPF15,"Alpha Arbutin, SPF",No,No,No,No,Morning,Daily
+P091,Alpha Arbutin 3+ Collagen Soap,Cleanser,Cleanse,1. Cleanse,Soap,All,Moderate,Brightening,Hydration,"Alpha Arbutin, Collagen",No,No,No,No,Both,Daily
+P092,SK Duchess Glow Shower Gel Amino Acid & Glycolic Acid PH5.5,Body Wash,Cleanse,1. Cleanse,Shower Gel,All,Moderate,"Glow, exfoliation",Gentle,"Amino Acids, Glycolic",No,Yes (AHA),No,No,Both,Daily
+P093,SK Duchess Glow Shower Gel Blood Orange Blossom Premium Skin Glowing,Body Wash,Cleanse,1. Cleanse,Shower Gel,All,Yes,Glow,Premium,"Fragrance, glow actives",No,No,No,No,Both,Daily
+P094,Skin by Zaron Vitamin C Body Wash,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,Brightening,Cleansing,Vitamin C,No,No,Yes,No,Both,Daily
+P095,Advance Clinicals Retinol Advance Firming Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All except sensitive,Moderate,"Firming, anti-aging",Hydration,Retinol,Yes,No,No,No,Night,Daily (build tolerance)
+P096,Advance Clinicals Vitamin C Brightening Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All,Yes,Brightening,Anti-aging,Vitamin C,No,No,Yes,No,Morning,Daily
+P097,Facefact Kojic Acid Body Lotion with Retinol,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Moderate,Brightening,Anti-aging,"Kojic Acid, Retinol",Yes,No,No,No,Night,Daily (build)
+P098,Facefact Vitamin C Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,Brightening,Hydration,Vitamin C,No,No,Yes,No,Morning,Daily
+P099,Facefact Ceramide Serum Nourish + Restore,Serum,Treat,3. Treat,Serum,All,Yes,"Nourish, restore",Barrier,Ceramides,No,No,No,No,Both,Daily
+P100,Cosmo Glow White Whitening Body Scrub,Scrub,Exfoliate,6. Exfoliate (Physical),Scrub,All,Moderate,"Whitening, exfoliation",Brightening,Whitening agents,No,No,No,No,Night,2-3x/week
+P101,Alpha Arbutin Sugar Scrub AHA30% + BHA 2%,Scrub,Exfoliate,6. Exfoliate (Physical),Scrub,All except sensitive,No,"Brightening, exfoliation","Acne, texture","AHA 30%, BHA 2%, Alpha Arbutin",No,Yes (AHA/BHA),No,No,Night,2-3x/week
+P102,Golden Glow Intensive Whitening Exfoliating Shower Gel,Body Wash,Cleanse/Exfoliate,1. Cleanse,Shower Gel,All,Moderate,"Whitening, exfoliation",Glow,"Exfoliants, whitening",No,No,No,No,Both,Daily
+P103,Dove Nourishing Silk Body Wash,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,Nourishing,Silk feel,Nourishing agents,No,No,No,No,Both,Daily
+P104,Advance Korean Skin Bright & Fair Body Gel Wash,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,Brightening,Cleansing,Brightening actives,No,No,No,No,Both,Daily
+P105,Advance Korean Skin Bright & Clear Body Gel Wash,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,"Brightening, clarity",Cleansing,Brightening actives,No,No,No,No,Both,Daily
+P106,Niu Skin Total Effects Platinum White Perfumed Body Lotion No.5,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,Whitening,Perfumed hydration,Whitening actives,No,No,No,No,Both,Daily
+P107,Niu Skin Total Effects Platinum White Perfumed Body Lotion Oud Wood,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,Whitening,Perfumed hydration,Whitening actives,No,No,No,No,Both,Daily
+P108,Nivea Body Lotion Radiant & Beauty Even Glow 95% Pure Vitamin C,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,Even glow,Brightening,Vitamin C 95%,No,No,Yes,No,Morning,Daily
+P109,Aqua Rich Bright + Glow Body Lotion Licorice Mulberry Root Extract,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,"Brightening, glow",Hydration,"Licorice, Mulberry",No,No,No,No,Both,Daily
+P110,Aqua Rich Hydrating Bright Body Lotion Turmeric Vitamin C,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,"Brightening, hydration",Glow,"Turmeric, Vitamin C",No,No,Yes,No,Both,Daily
+P111,Bitnara Brightening & Hydrating Body Lotion Niacinamide + Vitamin C + Hyaluronic Acid,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,"Brightening, hydration",Glow,"Niacinamide, Vitamin C, HA",No,No,Yes,No,Both,Daily
+P112,Facefacts Ceramide Skin Barrier Complex Oil Control Moisturising Gel Cream 5 Ceramides + Hyaluronic Acid + Niacinamide,Moisturizer,Moisturize,4. Moisturize,Gel Cream,Oily,Yes,"Oil control, barrier",Hydration,"5 Ceramides, HA, Niacinamide",No,No,No,No,Both,Daily
+P113,Bitnara Vitamin C Ferulic Acid + Vitamin E Serum,Serum,Treat,3. Treat,Serum,All,Yes,"Brightening, antioxidant",Anti-aging,"Vitamin C, Ferulic, Vitamin E",No,No,Yes,No,Morning,Daily
+P114,Balance Active Formula Niacinamide Blemish Recovery Serum Calm & Clear 15% Active Niacinamide,Serum,Treat,3. Treat,Serum,Acne-prone,Yes,"Blemish, calming",Clarity,Niacinamide 15%,No,No,No,No,Both,Daily
+P115,Veet Gold Spa Skin Whitening Tomato Scrub Face and Body,Scrub,Exfoliate,6. Exfoliate (Physical),Scrub,All,Moderate,Whitening,Exfoliation,"Tomato, whitening",No,No,No,No,Night,2-3x/week
+P116,Veet Gold Vitamin C Extra Whitening Scrub Face and Body,Scrub,Exfoliate,6. Exfoliate (Physical),Scrub,All,Moderate,Extra whitening,Exfoliation,Vitamin C,No,No,Yes,No,Night,2-3x/week
+P117,Bitnara Exfoliating Toner Glycolic Acid 7.5% PH-3.6,Toner,Tone/Exfoliate,2. Tone/Exfoliate,Toner,All except sensitive,No,Exfoliation,Texture,Glycolic Acid 7.5%,No,Yes (AHA),No,No,Night,3-4x/week
+P118,Simple Micellar Water,Cleanser,Cleanse,1. Cleanse,Water,"All, sensitive",Yes,Gentle cleanse,Makeup removal,Micelles,No,No,No,No,Both,Daily
+P119,Facefact Soothie + Glow Niacinamide Serum,Serum,Treat,3. Treat,Serum,All,Yes,"Soothing, glow",Brightening,Niacinamide,No,No,No,No,Both,Daily
+P120,Facefact Glow + Resurface Lactic Acid AHA Serum 3%,Serum,Treat,3. Treat,Serum,All except sensitive,Moderate,"Glow, resurface",Exfoliation,Lactic Acid 3%,No,Yes (AHA),No,No,Night,3x/week
+P121,St. Ives Soothing Body Wash Oatmeal & Shea Butter,Body Wash,Cleanse,1. Cleanse,Wash,"Dry, sensitive",Yes,Soothing,Hydration,"Oatmeal, Shea Butter",No,No,No,No,Both,Daily
+P122,St. Ives Refreshing Body Wash Rose Water & Aloe Vera,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,Refreshing,Hydration,"Rose Water, Aloe",No,No,No,No,Both,Daily
+P123,St. Ives Pampering Body Wash Vanilla & Oat Milk,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,Pampering,Nourishing,"Vanilla, Oat Milk",No,No,No,No,Both,Daily
+P124,St. Ives Exfoliating Body Wash Sea Salt & Pacific Kelp,Body Wash,Cleanse/Exfoliate,1. Cleanse,Wash,All,Moderate,Exfoliation,Smoothing,"Sea Salt, Kelp",No,No,No,No,Both,Daily
+P125,Bitnara Refreshing Foaming Cleanser,Cleanser,Cleanse,1. Cleanse,Cleanser,All,Yes,Refreshing cleanse,Hydration,Gentle actives,No,No,No,No,Both,Daily
+P126,Bitnara Renewing & Exfoliation Cleanser 2% Salicylic + 5% Glycolic,Cleanser,Cleanse,1. Cleanse,Cleanser,Acne-prone,Moderate,"Exfoliation, acne",Clarity,"Salicylic 2%, Glycolic 5%",No,Yes (BHA/AHA),No,No,Night,Daily
+P127,Bitnara Hydrating Facial Cleanser,Cleanser,Cleanse,1. Cleanse,Cleanser,"All, dry",Yes,Hydration,Gentle cleanse,Hydrating agents,No,No,No,No,Both,Daily
+P128,Dr Teals Body Lotion Vitamin C Glow & Radiance,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,"Glow, radiance",Brightening,Vitamin C,No,No,Yes,No,Morning,Daily
+P129,Dr Teals Body Wash with Pure Epsom Vitamin C Glow & Radiance,Body Wash,Cleanse,1. Cleanse,Wash,All,Yes,"Glow, radiance",Cleansing,"Vitamin C, Epsom",No,No,Yes,No,Both,Daily
+P130,Advance Korean Skin Bright & Dewy Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,"Brightening, dewy",Hydration,Brightening agents,No,No,No,No,Both,Daily
+P131,Advance Korean Skin Bright & Moisture Body Lotion,Body Lotion,Moisturize,4. Moisturize,Lotion,All,Yes,"Brightening, hydration",Moisture,Brightening agents,No,No,No,No,Both,Daily
+P132,Medix 5.5 Retinol + Ferulic Acid,Moisturizer,Moisturize,4. Moisturize,Cream,All except sensitive,Moderate,Anti-aging,Brightening,"Retinol, Ferulic Acid",Yes,No,No,No,Night,Daily (build)
+P133,Facefact Ceramide Blemish Clarifying Foaming Cleanser,Cleanser,Cleanse,1. Cleanse,Cleanser,Acne-prone,Yes,Blemish clarifying,Foaming,Ceramides,No,No,No,No,Both,Daily
+P134,Facefact Ceramide Oil Control Foaming Cleanser,Cleanser,Cleanse,1. Cleanse,Cleanser,Oily,Yes,Oil control,Cleansing,Ceramides,No,No,No,No,Both,Daily
+P135,Advance Clinicals Retinol Advanced Firming Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All except sensitive,Moderate,"Firming, anti-aging",Hydration,Retinol,Yes,No,No,No,Night,Daily (build tolerance)
+P136,Advance Clinicals Vitamin C Advanced Brightening Cream,Moisturizer,Moisturize,4. Moisturize,Cream,All,Yes,Brightening,Anti-aging,Vitamin C,No,No,Yes,No,Morning,Daily
+P137,COSRX Salicylic Acid Daily Gentle Cleanser,Cleanser,Cleanse,1. Cleanse,Cleanser,Acne-prone,Yes,"Acne, gentle cleanse",Pore care,Salicylic Acid,No,Yes (BHA),No,No,Both,Daily
+P138,Trilumá Cream (Hydroquinone 4% + Tretinoin 0.05% + Fluocinolone 0.01%),Moisturizer,Treat,3. Treat,Cream,Melasma,No,"Melasma, hyperpigmentation",Inflammation reduction,"Hydroquinone 4%, Tretinoin 0.05%, Fluocinolone 0.01%",Yes,No,No,Yes,Night,Short-term (8 weeks)
+P139,ANUA Niacinamide 10% + TXA 4% Serum,Serum,Treat,3. Treat,Serum,"All, acne-prone",Yes,"Brightening, blemish",Pore care,"Niacinamide 10%, Tranexamic Acid 4%",No,No,No,No,Both,Daily
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
