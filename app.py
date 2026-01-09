@@ -9,6 +9,8 @@ def load_products():
     return pd.read_csv('products.csv')
 
 df = load_products()
+st.write(f"Loaded {len(df)} products from CSV")
+st.write(df.head())
 
 # Skin type explanations
 SKIN_TYPE_EXPLANATIONS = {
@@ -234,3 +236,4 @@ if query:
                 st.write(f"Use: {p['recommended_time']} — {p['max_frequency']}")
 
 st.caption("Thank you for trusting us with your skin 🌿")
+
