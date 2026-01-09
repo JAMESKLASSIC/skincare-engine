@@ -39,14 +39,14 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
     # Safety filter
     filtered = filtered[filtered.apply(lambda row: is_safe(row, is_sensitive, is_pregnant, using_prescription), axis=1)]
 
-    # Skin type filter (include Acne-prone for oily)
+    # Skin type filter
     filtered = filtered[
         filtered['suitable_skin_types'].str.contains('All', case=False, na=True) |
         filtered['suitable_skin_types'].str.contains(skin_type, case=False, na=True) |
         filtered['suitable_skin_types'].str.contains('Acne-prone', case=False, na=True)
     ]
 
-    # Default concern if none selected
+    # Default concern if none
     if not concerns:
         if skin_type == "Dry":
             concerns = ["dryness"]
@@ -60,27 +60,23 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
         filtered = filtered.reset_index(drop=True)
         mask = pd.Series([False] * len(filtered))
         for c in concerns:
-            keywords = "|".join([
-                "acne", "blemish", "pore", "salicylic", "benzoyl", "breakout",  # acne
-                "brightening", "even tone", "fade spots", "whitening", "hyperpigmentation", "dark spots", "melasma", "pigment", "arbutin", "kojic", "niacinamide", "vitamin c", "tranexamic",  # dark spots
-                "hydration", "hyaluronic", "moisturizing", "dryness",  # dryness
-                "texture", "exfoliation", "smoothing", "glycolic", "lactic",  # texture
-                "anti-aging", "retinol", "firming", "wrinkle"  # aging
-            ][::])  # dummy to avoid empty
             if c == "acne":
                 keywords = "acne|blemish|pore|salicylic|benzoyl|breakout"
             elif c == "dark spots / uneven tone":
                 keywords = "brightening|even tone|fade spots|whitening|hyperpigmentation|dark spots|melasma|pigment|arbutin|kojic|niacinamide|vitamin c|tranexamic"
             elif c == "dryness":
                 keywords = "hydration|hyaluronic|moisturizing|dryness"
-            mask |= filtered['primary_target'].str.contains(keywords, case=False, na=False)
-            mask |= filtered['secondary_target'].str.contains(keywords, case=False, na=False)
-            mask |= filtered['key_actives'].str.contains(keywords, case=False, na=False)
+            else:
+                keywords = ""
+            if keywords:
+                mask |= filtered['primary_target'].str.contains(keywords, case=False, na=False)
+                mask |= filtered['secondary_target'].str.contains(keywords, case=False, na=False)
+                mask |= filtered['key_actives'].str.contains(keywords, case=False, na=False)
         filtered = filtered[mask]
 
     if filtered.empty:
-        st.warning("No perfect matches. Here's safe general guidance — consult a professional.")
-        st.write("**1. Cleanse** → Gentle cream/gel cleanser")
+        st.warning("No perfect matches found. Here's safe general guidance.")
+        st.write("**1. Cleanse** → Gentle cleanser")
         st.write("**2. Tone** → Hydrating toner")
         st.write("**3. Treat** → Targeted serum")
         st.write("**4. Moisturize** → Suitable moisturizer")
@@ -89,7 +85,7 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
 
     st.success("Here's your safe, personalized routine:")
 
-    recommended_products = []
+    recommended_products = []  # Collect all recommended products
 
     # 1. Cleanse
     cleansers = filtered[filtered['step'] == '1. Cleanse']
@@ -133,7 +129,7 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
 
     st.info("Start slow • Patch test • Consistency wins")
 
-    # === Recommended Products Grid ===
+    # === Products Recommended for You ===
     st.markdown("---")
     st.subheader("🛒 Products Recommended for You")
 
@@ -141,13 +137,12 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
     seen = set()
     unique_products = []
     for p in recommended_products:
-        pid = p['product_id']
-        if pid not in seen:
-            seen.add(pid)
+        if p['product_id'] not in seen:
+            seen.add(p['product_id'])
             unique_products.append(p)
 
     if unique_products:
-        st.write("These are the specific products from your routine:")
+        st.write("These are the specific products tailored for your skin challenge:")
         cols = st.columns(min(3, len(unique_products)))
         for idx, p in enumerate(unique_products):
             with cols[idx % 3]:
@@ -155,18 +150,18 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
                 st.write(p['name'])
                 st.caption(f"{p['primary_target']} • {p['key_actives']}")
     else:
-        st.info("Your routine is general for now — specific product matches coming in your next session!")
+        st.info("Your routine is customized but uses general types — specific matches coming in your next session!")
 
-    # Next Goals — Teaser only
+    # Next Goals — Teaser
     st.markdown("---")
     st.subheader("🌟 Your Next Skin Goals")
-    st.write("• Flawless texture")
-    st.write("• Radiant glow")
-    st.write("• Youthful bounce")
-    st.write("• Unstoppable confidence")
-    st.success("Return in 4–8 weeks for your upgraded routine. The best is yet to come. 🔜")
+    st.write("• Glass-like clarity")
+    st.write("• Effortless radiance")
+    st.write("• Timeless bounce")
+    st.write("• Unshakeable confidence")
+    st.success("Return in 4–8 weeks for your next-level routine. The transformation is just beginning. 🔜")
 
-# UI
+# UI (same as before)
 st.title("👋 Welcome to Skin Recommendation Engine")
 st.write("Hi! Let's build your routine.")
 
