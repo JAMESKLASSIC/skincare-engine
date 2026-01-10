@@ -3,14 +3,15 @@ import pandas as pd
 
 st.set_page_config(page_title="Skin Recommendation Engine", layout="centered")
 
-# Load products
 @st.cache_data
 def load_products():
     return pd.read_csv('products.csv')
 
 df = load_products()
 
-# Skin type explanations
+# Debug (keep for now, remove later)
+st.write(f"**Debug: Loaded {len(df)} products**")
+
 SKIN_TYPE_EXPLANATIONS = {
     "Oily": "Skin that gets shiny quickly, especially on the T-zone, and may be prone to breakouts.",
     "Dry": "Skin that feels tight, flaky, or rough and lacks moisture.",
@@ -28,7 +29,7 @@ def is_safe(row, is_sensitive, is_pregnant, using_prescription):
     return True
 
 def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_prescription, area):
-    # Area filter - allow more for face
+    # Area filter - relaxed for face
     if area == "Face":
         filtered = df[~df['name'].str.lower().str.contains('body wash|scrub|shower gel|body oil gel', na=False)]
     elif area == "Body":
@@ -40,18 +41,16 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
     filtered = filtered[filtered.apply(lambda row: is_safe(row, is_sensitive, is_pregnant, using_prescription), axis=1)]
 
     # Skin type filter - include Acne-prone for oily
+    type_keywords = 'All'
+    if skin_type == "Oily":
+        type_keywords = 'All|Oily|Acne-prone'
     filtered = filtered[
-        filtered['suitable_skin_types'].str.contains('All|Oily|Acne-prone', case=False, na=True)
+        filtered['suitable_skin_types'].str.contains(type_keywords, case=False, na=True)
     ]
 
-    # Default concern if none
+    # Default concern
     if not concerns:
-        if skin_type == "Dry":
-            concerns = ["dryness"]
-        elif skin_type == "Oily":
-            concerns = ["acne"]
-        else:
-            concerns = ["dull"]
+        concerns = ["acne"] if skin_type == "Oily" else ["dryness"] if skin_type == "Dry" else ["dull"]
 
     # Concerns filter
     if concerns:
@@ -107,7 +106,8 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
     # 3. Treat
     treats = filtered[filtered['step'] == '3. Treat']
     if not treats.empty:
-        chosen = treats.sample(1).iloc[0]
+        acne_priority = treats[treats['key_actives'].str.contains('niacinamide|salicylic|benzoyl', case=False, na=False)]
+        chosen = acne_priority.sample(1).iloc[0] if not acne_priority.empty else treats.sample(1).iloc[0]
         st.write(f"**3. Treat** → {chosen['product_id']} — {chosen['name']}")
         recommended_products.append(chosen)
     else:
@@ -148,15 +148,15 @@ def build_routine(df, skin_type, concerns, is_sensitive, is_pregnant, using_pres
                 st.write(p['name'])
                 st.caption(f"{p['primary_target']} • {p['key_actives']}")
     else:
-        st.info("General guidance given — specific matches coming soon!")
+        st.info("No specific product matches yet — general guidance provided.")
 
     # Next Goals - Teaser
     st.markdown("---")
     st.subheader("🌟 Your Next Skin Goals")
     st.write("• Crystal clear skin")
     st.write("• Natural glow")
-    st.write("• Balanced confidence")
-    st.success("Return in 4–8 weeks for your upgraded routine. The transformation awaits! 🔜")
+    st.write("• Youthful bounce")
+    st.success("Return soon for your upgraded routine. The best is coming. 🔜")
 
 # UI
 st.title("👋 Welcome to Skin Recommendation Engine")
