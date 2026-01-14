@@ -9,8 +9,6 @@ def load_products():
 
 df = load_products()
 
-# Debug
-st.write(f"**Debug: Loaded {len(df)} products**")
 
 SKIN_TYPE_EXPLANATIONS = {
     "Oily": "Skin that gets shiny quickly, especially on the T-zone, and may be prone to breakouts.",
@@ -230,5 +228,6 @@ if query:
                 st.write(f"Use: {p['recommended_time']} — {p['max_frequency']}")
 
 st.caption("Thank you for trusting us with your skin 🌿")
+
 
 
