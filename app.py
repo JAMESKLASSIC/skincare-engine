@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Skin Recommendation Engine Vovewro", layout="centered")
+st.set_page_config(page_title="Skin Recommendation Engine Vovwero", layout="centered")
 
 @st.cache_data
 def load_products():
@@ -230,4 +230,5 @@ if query:
                 st.write(f"Use: {p['recommended_time']} — {p['max_frequency']}")
 
 st.caption("Thank you for trusting us with your skin 🌿")
+
 
